@@ -1,9 +1,14 @@
 ////////////////////////////////////////////////
 // fillscreen.asm
-// used Assembler: Kick Assembler 5.24
 // fill screen with key char pressed
 // original: JimJim
 // https://www.youtube.com/watch?v=ibtwfafBMKU
+// 
+// tools used:
+//  - VS Code 1.66.2
+//  - Vice GTK3, v3.6.1
+//  - Kick Assembler 5.24
+//  - C64Debugger v0.64.58.6.win32
 ////////////////////////////////////////////////
 
 .var getin=$ffe4        // GETIN kernal routine which checks for input
